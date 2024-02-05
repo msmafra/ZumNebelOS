@@ -34,11 +34,11 @@ modules:
       - micro
       - starship
       # sudo rpm-ostree override remove kernel kernel-core kernel-modules kernel-modules-core kernel-modules-extra --install kernel-cachyos
-      #- kernel-cachyos
-      #- kernel-cacyos-devel-matched
+      - kernel-cachyos
+      - kernel-cacyos-devel-matched
       - libcap-ng-devel
       - procps-ng-devel
-      #- uksmd-rawhide
+      - uksmd-rawhide
       - zellij
     
     remove:
